@@ -16,6 +16,18 @@ h2 {
 body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   font-family: sans-serif;
+  padding: 20px;
+}
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+footer {
+  font-size: 14px;
+}
+a {
+  color: black;
 }
 .menu {
   background-color: burlywood;
@@ -35,12 +47,13 @@ body {
 }
 .item p {
   display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
 }
 .established {
   font-style: italic;
 }
-hr {
-  height: 2px;
-  background-color: brown;
-  border-color: brown;
+.bottom-line {
+  margin-top: 25px;
 }
