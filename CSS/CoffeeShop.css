@@ -3,13 +3,20 @@ h2,
 p {
   text-align: center;
 }
+h1,
+h2 {
+  font-family: Impact, serif;
+}
 body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
 }
 .menu {
   background-color: burlywood;
   width: 80%;
+  max-width: 500px;
   margin: auto;
+  padding: 20px;
 }
 .flavor,
 .dessert {
@@ -22,4 +29,7 @@ body {
 }
 .item p {
   display: inline-block;
+}
+.established {
+  font-style: italic;
 }
